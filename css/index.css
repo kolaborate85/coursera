@@ -1,0 +1,192 @@
+@media (min-width:992px){
+    #header{
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: maroon;
+    }
+
+    .chicken{
+        width:30%;
+        background-color: aqua;
+        border: 2px solid black;
+        float: left;
+    }
+
+    .beef{
+        width:30%;
+        background-color: cadetblue;
+        border: 2px solid black;
+        float: left;
+    }
+
+    .sushi{
+        width:30%;
+        background-color: cornsilk;
+        border: 2px solid black;
+        float: left;
+    }
+
+    .chicken,.sushi,.beef{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-sizing: border-box;
+        padding: 20px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+
+    .chicken-section, .beef-section, .sushi-section{
+        text-align: center;
+        width:28.5%;
+        border: 2px solid black;
+        padding:3px;
+        box-sizing: border-box;
+        color: whitesmoke;
+        position: relative;
+        left: 78%;
+        bottom:3.6vh;
+    }
+
+    .chicken-section{
+        background-color:orangered;
+    }
+    .beef-section{
+        background-color:maroon;
+    }
+    .sushi-section{
+        background-color: navy;
+    }
+}
+
+@media (max-width:991px) and (min-width:768px){
+    #header{
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: maroon;
+    }
+
+    .chicken{
+        width:45%;
+        background-color: aqua;
+        border: 2px solid black;
+        float: left;
+    }
+
+    .beef{
+        width:45%;
+        background-color: cadetblue;
+        border: 2px solid black;
+        float: left;
+    }
+
+    .chicken, .beef, .sushi{
+        margin:10px;
+        padding:5px;
+    }
+
+    .sushi{
+        width:94%;
+        background-color: cornsilk;
+        border: 2px solid black;
+        float: left;
+    }
+
+    .chicken-section, .beef-section{
+        text-align: center;
+        width:20%;
+        border: 2px solid black;
+        padding:3px;
+        box-sizing: border-box;
+        color: whitesmoke;
+        position: relative;
+        left: 36vw;
+        bottom:1vh;
+    }
+
+    .sushi-section{
+        text-align: center;
+        width:9.5%;
+        border: 2px solid black;
+        padding:3px;
+        color: whitesmoke;
+        background-color: navy;
+        position: relative;
+        left: 90.2%;
+        /* left: 83.2vw; */
+        bottom:1vh;
+        /* float: right;    */
+    }
+
+    .chicken-section{
+        background-color:orangered;
+    }
+    .beef-section{
+        background-color:maroon;
+    }
+
+}
+
+@media (max-width:767px){
+    #header{
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: maroon;
+        font-size: 40px
+    }
+
+    .chicken{
+        width:80%;
+        background-color: aqua;
+        border: 2px solid black;
+        float: left;
+    }
+
+    .beef{
+        width:80%;
+        background-color: cadetblue;
+        border: 2px solid black;
+        float: left;
+    }
+
+    .sushi{
+        width:80%;
+        background-color: cornsilk;
+        border: 2px solid black;
+        float: left;
+    }
+
+    .chicken,.sushi,.beef{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-sizing: border-box;
+        padding: 3px;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+
+    .sushi{
+        margin-bottom: 40px;
+    }
+
+    .chicken-section, .beef-section, .sushi-section{
+        text-align: center;
+        width:20%;
+        border: 2px solid black;
+        padding:3px;
+        box-sizing: border-box;
+        color: whitesmoke;
+        position: relative;
+        left: 80.9%;
+        /* left: 60.9vw; */
+        bottom:.8vh;
+    }
+
+    .chicken-section{
+        background-color:orangered;
+    }
+    .beef-section{
+        background-color:maroon;
+    }
+    .sushi-section{
+        background-color: navy;
+    }
+
+}
